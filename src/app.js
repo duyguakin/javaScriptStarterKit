@@ -1,26 +1,27 @@
-let MovieList =[
-  { id: 0, name: "Harry Potter", category: "Fantastic" },
-  { id: 1, name: "Lord of the Rings", category: "Fantastic" },
-  { id: 2, name: "Fast and Furious", category: "Action" },
-  { id: 3, name: "Sinister", category: "Horror" },
-  { id: 4, name: "When Harry Met Sally", category: "Comedy" },
-  { id: 5, name: "Matrix", category: "Science Fiction" },
-]
+console.log("merhaba Kodlama.io")
 
 
-let firstFilteredMovieList = MovieList.filter(movie => movie.category == "Comedy")
-console.log(firstFilteredMovieList);
+let dolarBugun = 9.30 
 
-let secondFilteredMovieList = MovieList.forEach(movie => {
-  if (movie.category == "Fantastic") {
-    console.log(movie);
-  }
-});
+let dolarDun = 9.40
+ 
 
 
+console.log(dolarDun)
 
 
+const euroDun = 11.10   
 
 
+console.log(euroDun)
+
+let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi", "Kamu Konut Kredisi","Özel Konut Kredisi"]
+
+console.log("<ul>")
+for(let i = 0; i<konutKredileri.length; i++) {
+  console.log("<li>"+konutKredileri[i]+"</li>")   
+}
+console.log("</ul>")
 
 
+console.log(konutKredileri)
